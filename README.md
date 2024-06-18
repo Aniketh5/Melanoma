@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Name
 > Outline a brief description of your project.
 
@@ -50,3 +51,6 @@ Created by [@githubusername] - feel free to contact me!
 <!-- This project is open source and available under the [... License](). -->
 
 <!-- You don't have to include all sections - just the one's relevant to your project -->
+=======
+# Melanoma_Assignment
+>>>>>>> 32b7d0081a3033d70581b709537886d6b6745a9b
