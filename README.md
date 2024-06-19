@@ -7,23 +7,6 @@ Build a multiclass classification model using a custom convolutional neural netw
 
 #### Problem statement: To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-
-The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
-The data set contains the following diseases:
-
-1. Actinic keratosis
-2. Basal cell carcinoma
-3. Dermatofibroma
-4. Melanoma
-5. Nevus
-6. Pigmented benign keratosis
-7. Seborrheic keratosis
-8. Squamous cell carcinoma
-9. Vascular lesion
- 
-
- 
-
 #### Project Pipeline
 - Data Reading/Data Understanding → Defining the path for train and test images 
 - Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
@@ -39,7 +22,7 @@ The data set contains the following diseases:
   - Choose an appropriate optimiser and loss function for model training
   - Train the model for ~20 epochs
   - Write your findings after the model fit, see if the earlier issue is resolved or not?
-**Class distribution: **
+**Class distribution :**
   - Examine the current class distribution in the training dataset 
   - Which class has the least number of samples?
   - Which classes dominate the data in terms of the proportionate number of samples?
@@ -63,10 +46,18 @@ The data set contains the following diseases:
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
+The data set contains the following diseases:
+
+1. Actinic keratosis
+2. Basal cell carcinoma
+3. Dermatofibroma
+4. Melanoma
+5. Nevus
+6. Pigmented benign keratosis
+7. Seborrheic keratosis
+8. Squamous cell carcinoma
+9. Vascular lesion
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
